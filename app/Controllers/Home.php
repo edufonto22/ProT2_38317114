@@ -8,7 +8,7 @@ class Home extends BaseController
     {
         echo view('front/head_view');
         echo view('front/navbar_view');
-        echo view('front/principal_ultimo');
+        echo view('front/principal');
         echo view('front/footer_view');
     }
 
@@ -16,7 +16,7 @@ class Home extends BaseController
     {
         echo view('front/head_view');
         echo view('front/navbar_view');
-        echo view('front/principal_ultimo');
+        echo view('front/principal');
         echo view('front/footer_view');
     }
 
@@ -24,10 +24,25 @@ class Home extends BaseController
     {
         echo view('front/head_view');
         echo view('front/navbar_view');
-        echo view('front/principal_ultimo');
+        echo view('front/principal');
         echo view('front/footer_view');
     }
 
+    public function login()
+    {
+        echo view('front/head_view');
+        echo view('front/navbar_view');
+        echo view('front/login');
+        echo view('front/footer_view');
+    }
+    
+    public function registro()
+    {
+        echo view('front/head_view');
+        echo view('front/navbar_view');
+        echo view('front/registro');
+        echo view('front/footer_view');
+    }
 
 
 }
