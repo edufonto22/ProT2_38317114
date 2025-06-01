@@ -16,7 +16,7 @@ class Home extends BaseController
     {
         echo view('front/head_view');
         echo view('front/navbar_view');
-        echo view('front/principal');
+        echo view('front/quienes_somos');
         echo view('front/footer_view');
     }
 
@@ -24,7 +24,7 @@ class Home extends BaseController
     {
         echo view('front/head_view');
         echo view('front/navbar_view');
-        echo view('front/principal');
+        echo view('front/acerca_de');
         echo view('front/footer_view');
     }
 
@@ -41,6 +41,22 @@ class Home extends BaseController
         echo view('front/head_view');
         echo view('front/navbar_view');
         echo view('front/registro');
+        echo view('front/footer_view');
+    }
+
+     public function producto()
+    {
+        echo view('front/head_view');
+        echo view('front/navbar_view');
+        echo view('front/producto');
+        echo view('front/footer_view');
+    }
+
+     public function blog()
+    {
+        echo view('front/head_view');
+        echo view('front/navbar_view');
+        echo view('front/blog');
         echo view('front/footer_view');
     }
 
